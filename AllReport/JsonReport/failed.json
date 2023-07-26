@@ -1,0 +1,145 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To Validate the login invalid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4525965800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to launch Facebook application thru Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_launch_Facebook_application_thru_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202955801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to enter invalid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_invalid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86998599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to click the login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3456731700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User have to reach the invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_have_to_reach_the_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To Validate the login invalid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3869362499,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User have to launch Facebook application thru Chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_launch_Facebook_application_thru_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User have to enter invalid username and invalid password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User have to click the login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User have to reach the invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_have_to_reach_the_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login functionality of Facebook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/srini/eclipse-workspace/CucumberFrameWork/src/test/resources/FeatureFile/Login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
